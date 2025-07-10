@@ -1,6 +1,6 @@
 # perfon
 
-Javascript performance benchmarking library for browsers especially (work with node.js very well too).
+Javascript performance benchmarking library for browsers especially (also works very well with nodejs).
 
 ```ts
 import { benchSync } from "perfon";
