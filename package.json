@@ -23,6 +23,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "tsc index.ts --outDir . --module esnext --target es2020",
     "test": ""
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }

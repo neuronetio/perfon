@@ -129,7 +129,6 @@ const globalSymbol = Symbol.for("benchmark_global_symbol");
 export const $: Dollar = {
   _: null,
   __() {
-    // @ts-expect-error no globalThis._ defined
     globalThis[globalSymbol] = $._;
     return console.log($._);
   },
